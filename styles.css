@@ -1,0 +1,34 @@
+* {
+  font-family: "Tahoma", "sans-serif";
+}
+
+#header {
+
+}
+
+#baja-models{
+  display: flex;
+  justify-content: center;
+}
+
+#baja-sport {
+  background-color: #AFAFAF;
+}
+
+#baja-turbo {
+  background-color: #AFAFAF;
+}
+
+#baja-model-header {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+#baja-model-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#baja-specs {
+  
+}
