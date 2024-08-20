@@ -3,7 +3,32 @@
 }
 
 #header {
+  position: fixed;
+  top: 0px;
+  min-height: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
 
+.header-spacer {
+  width: 40px;
+}
+
+.top-image {
+  width: 60%;
+}
+
+.mid-image {
+  width: 60%;
+}
+
+.image-wrapper {
+  margin: 0 auto;
 }
 
 #baja-models{
