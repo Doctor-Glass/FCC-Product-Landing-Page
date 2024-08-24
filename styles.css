@@ -1,43 +1,153 @@
+:root {
+  --color-1: silver;
+  --color-2: gray;
+  --color-3: yellow;
+  --color-4: red;
+}
+
 * {
   font-family: "Tahoma", "sans-serif";
 }
 
-#header {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+.nav-bar {
   position: fixed;
+  width: 100%;
   top: 0px;
-  min-height: 125px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  left: 0px;
+  height: 50px;
   padding: 0px;
+  overflow: hidden;
+  background-color: var(--color-1);
+}
+
+.nav-bar a {
+  height: 100%;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.nav-bar img {
+  height: 100%;
+  float: left;
+  display: block;
+  padding: 3px 15px;
+}
+
+.nav-bar a:hover {
+  background-color: var(--color-2);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding-top: 50px;
+}
+
+section { 
+  overflow: hidden;
+  padding: 0;
+  
+}
+
+.content-image {
+  width: 60%;
+  display: block;
+  margin: 4em auto;
+}
+
+.title {
+  font-size: 4em;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 3em;
+  margin: 20px auto;
+  font-style: italic;
+  text-align: center;
+}
+
+.section-header {
+  font-size: 30px;
   font-weight: 600;
-  font-size: 1.25rem;
+  padding-left: 10%;
 }
 
-.header-spacer {
-  width: 40px;
+.section-header-centered {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
 }
 
-.top-image {
-  width: 60%;
+.section-content {
+  text-indent: 2em;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.mid-image {
-  width: 60%;
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: calc((1080 / 1920) * 80%);
+  padding-bottom: 2em;
 }
 
-.image-wrapper {
+#section-0 {
+  background-color: var(--color-1);
+}
+
+#section-1 {
+  background-color: var(--color-4);
+}
+
+#section-2 {
+  background-color: var(--color-2);
+}
+
+#section-3 {
+  background-color: var(--color-3);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  height: 20%
+}
+
+footer p {
+  padding-top: 8%;
+}
+
+form {
+  display: block;
   margin: 0 auto;
 }
 
 #baja-models{
   display: flex;
   justify-content: center;
+  padding-bottom: 5%;
 }
 
 #baja-sport {
   background-color: #AFAFAF;
+  padding-right: 10%;
 }
 
 #baja-turbo {
@@ -55,5 +165,9 @@
 }
 
 #baja-specs {
+  
+}
+
+@media {
   
 }
